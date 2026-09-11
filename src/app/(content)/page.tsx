@@ -15,7 +15,7 @@ export default async function Home() {
     <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12 py-12">
       {handmade.relatedDocuments.length > 0 && (
         <section>
-          {/*<PageBreak title="new recipes" />*/}
+          {/*<PageBreak title="latest recipes . handmade with love" />*/}
           <div className="my-9">
             {handmade.relatedDocuments.length > 0 &&
               handmade.relatedDocuments.map((document) => (

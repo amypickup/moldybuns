@@ -13,7 +13,7 @@ export default function Footer() {
         </div>
         <div className="flex gap-8 md:flex-row flex-col items-left md:items-start md:justify-start justify-center mb-8">
           <iframe
-            src="https://mycohomies.substack.com/embed"
+            src="https://amypickup.substack.com/embed"
             height="200"
             className="w-full max-w-lg rounded-3xl text-left border border-pink-200"
           ></iframe>

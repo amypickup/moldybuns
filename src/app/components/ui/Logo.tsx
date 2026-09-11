@@ -6,7 +6,7 @@ const puffyHearts = localFont({ src: "../../fonts/PuffyHearts-Bold.otf" });
 export default function Logo() {
   return (
     <span className={`${puffyHearts.className} font-bold uppercase `}>
-      <Rainbow>Mycohomies</Rainbow>
+      <Rainbow>Moldybuns</Rainbow>
     </span>
   );
 }
