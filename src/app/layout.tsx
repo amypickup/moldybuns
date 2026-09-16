@@ -1,11 +1,11 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Lora } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const lora = Lora({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Moldybuns",
+  title: "moldybuns",
   description: "mycelial experiments in tech, art, baking, love, etc...",
 };
 
@@ -16,7 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body className={`${lora.className} antialiased text-gray-700`}>
+        {children}
+      </body>
     </html>
   );
 }
